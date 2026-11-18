@@ -157,3 +157,9 @@ directory-site/
     outreach.csv
   dist/                 # generated; do not edit by hand
 ```
+
+## Live publishing (configured)
+- Repo: https://github.com/christieMogulReport/notary-directory (gh CLI on the box is logged in as christieMogulReport).
+- Niche: notaries open evenings, weekends, and Sundays, by city.
+- Publish = `git add -A && git commit -m "Add <page>" && git push`. GitHub Actions (.github/workflows/pages.yml) builds and deploys to GitHub Pages at https://notary.christiejustice.com.
+- `data/` and `tools/` are git-ignored on purpose (private earnings, outreach, Telegram helper).
