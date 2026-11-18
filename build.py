@@ -320,9 +320,8 @@ def render_home(config: dict[str, Any], pages: list[dict[str, Any]]) -> str:
         )
     else:
         listing = (
-            '      <p class="empty">No directory pages have been published yet. '
-            "Add a Markdown file in <code>content/pages/</code> and run "
-            "<code>python3 build.py</code>.</p>\n"
+            '      <p class="empty">City guides are on the way. The first one, Tulsa, OK, '
+            "goes up tonight.</p>\n"
         )
 
     inner = f"      <h1>{escape(config['site_name'])}</h1>\n{intro}{listing}"
