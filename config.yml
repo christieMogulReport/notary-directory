@@ -1,0 +1,21 @@
+# Site settings. Update site_name, tagline, and description once the niche is chosen.
+# Set base_url (and base_path if the site is not at the domain root) before publishing.
+
+site_name: After-Hours Notary Finder
+site_tagline: Notaries open evenings, weekends, and Sundays, city by city.
+site_description: Find a notary public open after 5pm, on Saturdays, or on Sundays near you, plus online notarization when nothing is open.
+site_owner: Christie Justice
+language: en
+
+# Absolute site origin with no trailing slash, e.g. https://example.com
+# Leave empty for local preview. Required for correct canonical URLs and sitemap loc values.
+base_url: "https://notary.christiejustice.com"
+
+# URL prefix with a leading slash and no trailing slash when the site is served from a
+# subdirectory (for example /everyday-directory on GitHub Pages). Leave empty for a root domain.
+base_path: ""
+
+affiliate_disclosure: >
+  Some links on this site are affiliate or referral links. If you buy or sign up
+  through them, we may earn a commission at no extra cost to you. We only list
+  resources we think are useful.
